@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    max-width: 1920px;
+}
+.container {
+    max-width: 960px;
+    margin: 150px auto;
+}
+.choose {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #808080;
+}
+#city {
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 20px;
+}
+
+.weather {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.icon_weather{
+    width: 150px;
+}
+.day {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.temp, .signs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.degree{
+    display:block;
+    margin:0 auto;
+    font-size: 46px;
+    font-weight: bold;
+}
+.degree_feel{
+    display: flex;
+    justify-content: center;
+    color: #808080;
+}
+.signs_wind{
+    display: flex;
+}
+.wind_speed{
+    margin-left: 7px;
+}
+.signs_humidity {
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+.humidity_percent {
+    margin-left: 10px;}
+.sun{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sunrise_time ,.sunrise_text, .sunset_text, .sunset_time{
+    display: flex;
+    justify-content: center;
+}
+.sunrise_time, .sunrise_text, .sunset {
+    font-size: 18px;
+    color: #808080;
+}
