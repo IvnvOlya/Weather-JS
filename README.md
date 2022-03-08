@@ -1,4 +1,3 @@
-# Weather-JS
-Погодного приложения с использованием OpenWeather API
+# Погодного приложения с использованием JavaScript и OpenWeather API
 
-https://codepen.io/ivnvolya/pen/oNeomRx
+:tada: [Демо](https://codepen.io/ivnvolya/pen/oNeomRx)
